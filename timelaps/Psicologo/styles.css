@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url('Psicologo-transformed.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: rgba(0, 0, 51, 0.8);
+    backdrop-filter: blur(5px);
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+
+.navigation a, .navigation button {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: 0.3s;
+}
+
+.navigation a:hover, .navigation button:hover {
+    color: #009579;
+}
+
+.btn {
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000033;
+}
+
+main {
+    flex: 1;
+    padding: 40px 100px;
+    background: rgba(0, 0, 51, 0.6);
+    backdrop-filter: blur(10px);
+}
+
+.psicologo-info {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.pacientes-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.pacientes-table th, .pacientes-table td {
+    padding: 15px;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.pacientes-table th {
+    background: rgba(0, 0, 51, 0.8);
+}
+
+.pacientes-table tr {
+    transition: 0.3s;
+}
+
+.pacientes-table tr:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.btn-action {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-consult {
+    background: #4CAF50;
+    color: white;
+}
+
+.btn-delete {
+    background: #f44336;
+    color: white;
+}
+
+footer {
+    background: rgba(0, 0, 51, 0.8);
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
